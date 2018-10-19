@@ -12,7 +12,7 @@ Optional:
 ### Installing
 After cloning the repo, run `npm install` in the project directory.
 
-- `git clone https://github.com/arnlaugsson/Week10-boilerplate.git && cd Week10-boilerplate && npm install`
+- `git clone https://github.com/arnlaugsson/Week10-boilerplate.git; cd Week10-boilerplate; npm install`
 
 ### Running the tests
 This repository uses [Jest][jest] testing framework, and [SuperTest][supertest].
