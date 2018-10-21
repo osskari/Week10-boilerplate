@@ -11,7 +11,7 @@ app.use("/api", api);
 
 // Catch all other requests
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../", "dist", "404.html"));
+  res.status(404).send({ error: "Not found" });
 });
 
 // Prettify the JSON responses (from the API)
