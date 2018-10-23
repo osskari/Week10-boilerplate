@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack",
     "dev": "nodemon",
-    "heroku-postbuild": "webpack-p",
+    "heroku-postbuild": "webpack -p",
     "start": "node server",
     "test": "jest",
     "watch": "jest --watchAll"
